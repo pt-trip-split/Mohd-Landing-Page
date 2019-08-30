@@ -558,6 +558,16 @@ body {
   transform: skewY(-7deg);
   margin-top: -10rem;
 }
+@media (max-width: 600px) {
+  .section-feature {
+    padding: 10rem 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .section-feature {
+    padding: 10rem 2rem;
+  }
+}
 .section-feature h2 {
   color: white;
 }
@@ -588,6 +598,12 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(119, 119, 119, 0.15);
   transition: transform 0.3s;
+}
+@media (max-width: 600px) {
+  .feature-box {
+    width: 100%;
+    padding: 2.5rem 0;
+  }
 }
 .feature-box__icon {
   font-size: 6rem;
