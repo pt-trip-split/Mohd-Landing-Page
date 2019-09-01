@@ -419,7 +419,7 @@ body {
 .header-links a span:hover:after {
   width: 100%;
 }
-.app-try .btn-app {
+.btn-app {
   font-size: 3rem;
   padding: 1rem 1.5rem;
   border-radius: 100px;
@@ -436,26 +436,26 @@ body {
   text-decoration: none;
 }
 @media (max-width: 950px) {
-  .app-try .btn-app {
+  .btn-app {
     top: inherit;
     bottom: 10%;
     left: 50%;
   }
 }
 @media (max-width: 600px) {
-  .app-try .btn-app {
+  .btn-app {
     bottom: 2%;
     width: 100%;
   }
 }
-.app-try .btn-app:hover {
+.btn-app:hover {
   background-color: #777;
   color: #fff;
   text-shadow: 0.5rem 1rem 2rem rgba(119, 119, 119, 0.2);
   font-weight: 900;
 }
 @media (min-width: 1000px) {
-  .app-try .btn-app:hover {
+  .btn-app:hover {
     transform: scale(2) translateX(-20%) rotate(20deg);
   }
 }
