@@ -1,0 +1,36 @@
+.section-team {
+    position: relative;
+    height: 95vh;
+    // background-image: linear-gradient(
+    //     to right bottom, 
+    //     rgba(@color-primary-light),
+    // //     rgba(@color-primary-dark));
+
+    // background-size: cover;
+    // background-position: top;
+    // position: relative;
+    background-color: rgba(187, 141, 166, 0.845);
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2rem;
+
+        @media @tablet {
+            grid-template-columns: 1fr;
+        }
+
+        &--img {
+            width: 100%;
+            opacity: .8;
+            z-index: 2;
+        }
+
+        p {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+  }
+}
