@@ -29,6 +29,12 @@
         }
 
         &--back {
+
+            //hide on tablet and mobile 
+
+            @media @tablet {
+                display: none;
+            }
             // rotate the back card to vish upward and hide it
             transform: rotateY(-180deg);
             
@@ -70,6 +76,10 @@
     //at hover make the back side to come front and front to go back
     &:hover &__side--front {
         transform: rotateY(180deg);
+
+        @media @tablet {
+            transform: none;
+        }
     }
     &:hover &__side--back {
         transform: rotateY(0);

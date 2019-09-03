@@ -13,7 +13,7 @@
 
         @media @tablet {
             grid-template-columns: repeat(2, 1fr);
-            padding: 15rem 1rem 2rem 1rem;
+            padding: 2rem 1rem 2rem 1rem;
         }
 
         @media @mobile {
@@ -23,3 +23,39 @@
     }
 }
 
+.section-contact {
+
+    .contact {
+        background-image: 
+    linear-gradient(
+        150deg,
+        rgba(@color-white, .9) 0%,
+        rgba(@color-white, .9) 40%,
+        transparent 50%,
+        rgba(@color-white, .9) 90%
+    ),
+        url(../img/travel-place.jpg);
+
+        // height: 100%;
+        background-size: 100%;
+        border-radius: 3px;
+        .box-shadow();
+    }
+
+    .contact__form {
+        width: 70%;
+        padding: 2rem 10rem;
+        margin: auto auto;
+        background-color: rgba(@color-purple-dark, .7);
+
+        @media @tablet {
+            width: 80%;
+        }
+
+        @media @mobile {
+            width: 90%;
+            padding: 1rem 3rem;
+        }
+    }
+    
+}
